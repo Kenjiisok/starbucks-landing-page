@@ -1,0 +1,15 @@
+@media (max-width: 768px) {
+    .hamburguer{
+        display: block;
+    }
+
+    .navbar-logo svg{
+        width: 40px;
+        width: 40px;
+    }
+    
+    .navbar .navbar-esquerda,
+    .navbar .navbar-direita{
+        display: none;
+    }
+}
