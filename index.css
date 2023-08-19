@@ -116,19 +116,47 @@ p{
     background-color: rgba(0, 0, 0, 0.06);
 }
 
-.btn-green-outline-banner{
-    border-color:#1E3932;
-    color: #1E3932;
-}
+/* Botoes banners*/
+/* Botoes banners*/
 
-.btn-black-outline-banner{
+.btn-primeiro-banner{
     border-color: #11101C;
     color: #11101C;
 }
 
-.btn-black-outline-banner:hover{
+.btn-primeiro-banner:hover{
     background-color: #726fd3;
 }
+
+
+.btn-segundo-banner{
+    border-color:#1E3932;
+    color: #1E3932;
+}
+
+.btn-segundo-banner:hover{
+    background-color: #D67A99;
+}
+
+
+.btn-terceiro-banner{
+    border-color: #1E3932;
+    color: #1E3932;
+}
+
+.btn-terceiro-banner:hover{
+    background-color: #DBEB61;
+}
+
+.btn-quarto-banner{
+    border-color: #11101C;
+    color: #1D0C08;
+}
+
+.btn-quarto-banner:hover{
+    background-color: #E25A3F;
+}
+
 
 .btn-dark{
     background-color: #000;
@@ -293,7 +321,31 @@ p{
     font-size: 23px;
 }
 
-.footer {
-    padding: 50px;
-    text-align: center;
+
+/*Footer e icones*/
+
+.footer-container{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 30px 30px;
+}
+
+.social-icons{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.social-icons a{
+    text-decoration: none;
+    margin-right: 15px;
+    margin-top: 1rem;
+}
+
+.divider{
+    width: 80%;
+    height: 1px;
+    background-color: #ccc;
+    margin: 40px auto;
 }
